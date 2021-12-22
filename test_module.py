@@ -1,2 +1,2 @@
-def apple(name:str):
+def apple(name:str):
     return "hello"+name
