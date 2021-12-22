@@ -1,3 +1,4 @@
+'''cleaner'''
 from typing import Union
 import codecs
 class TextCleaners:
@@ -22,5 +23,3 @@ class TextCleaners:
         string=text.encode(encoding = 'UTF-8')
         string=codecs.decode(string, 'UTF-8')
         return string
-
-
